@@ -55,7 +55,7 @@ const Header = () => {
         <span className="mr-6" onClick={()=>{setMenuOpen(true)}}>
           <AiOutlineMenu size={25}/>
         </span>
-        <div className="flex-col flex-wrap">
+        <div className="absolute top-1 flex-col flex-wrap w-full h-full">
           <span
             onClick={() => setNavState(1)}
             className={navState === 1 ? "font-semibold" : ""}
