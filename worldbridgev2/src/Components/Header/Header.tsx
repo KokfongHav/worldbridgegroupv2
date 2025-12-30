@@ -68,7 +68,7 @@ const Header = () => {
         </span>
 
         {menuOpen ? (
-          <div className="absolute top-[20%] left-[3%] flex flex-col w-[94%] h-155 rounded-2xl py-6 justify-around items-center bg-white shadow-xl/30">
+          <div className="absolute z-10 top-[20%] left-[3%] flex flex-col w-[94%] h-155 rounded-2xl py-6 justify-around items-center bg-white shadow-xl/30">
             <div className="w-full">
               <span onClick={() => mobileMenuSelection(0)} className="relative w-30">
                 <Link to={"/"}>
