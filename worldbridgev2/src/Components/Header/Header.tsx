@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router";
 import { AiOutlineMenu } from "react-icons/ai";
-import { RxCross2 } from "react-icons/rx";
+// import { RxCross2 } from "react-icons/rx";
+import { FaRegCircleXmark } from "react-icons/fa6";
 
 const Header = () => {
   const [navState, setNavState] = useState(0);
@@ -77,7 +78,7 @@ const Header = () => {
                     src="/Assets/Images/Elements/WBGroupOfCompanies.png"
                   />
                 </Link>
-                <RxCross2
+                <FaRegCircleXmark
                   onClick={() => {
                     setMenuOpen(false);
                   }}
