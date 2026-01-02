@@ -4,3 +4,35 @@
   --color-primary: #12519c;
   --breakpoint-3xl: 1800px;
 }
+
+@layer components {
+  .title {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  .aboutuselements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+    gap: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .aboutuselements {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-weight: bold;
+      font-size: 8px;
+      gap: 0.3rem;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+  }
+}

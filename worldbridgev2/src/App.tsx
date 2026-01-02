@@ -9,7 +9,7 @@ import Ourcontent from './Pages/Ourcontent.tsx'
 function App() {
 
   return (
-    <div className="App w-screen h-screen" >
+    <div className="flex flex-col" >
       <BrowserRouter>
         <Routes>
             <Route element= {<Layout />}>
