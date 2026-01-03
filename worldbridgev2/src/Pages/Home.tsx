@@ -1,10 +1,12 @@
 import ActionButton from "../Components/ActionButton";
+import Carousel from "../Components/Carousel/Carousel";
 import Hero from "../Components/Hero";
 
 const Home = () => {
   return (
     <div className="md:flex md:flex-wrap md:flex-row md:justify-center ">
       <Hero />
+      <Carousel />
 
       {/* About Us */}
       <section className="w-screen md:w-[85vw] px-4 py-6 flex flex-wrap flex-row items-center">
