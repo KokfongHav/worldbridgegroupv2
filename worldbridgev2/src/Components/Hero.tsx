@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
       {/* middle */}
       <motion.div
-        className="flex flex-wrap flex-col w-57 md:w-220  justify-center items-center text-center md:gap-2.5 md:mr-15 z-5"
+        className="flex flex-wrap flex-col w-57 md:w-[45vw]  justify-center items-center text-center md:gap-2.5 md:mr-15 z-5"
         initial={{ scale: 0.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{
@@ -29,7 +29,7 @@ const Hero = () => {
         <div>
           <p className="font-bold text-black text-2xl md:text-7xl">We Keep</p>
         </div>
-        <div className="flex flex-row flex-wrap items-end">
+        <div className="flex flex-row items-end">
           <p className="text-sm mb-0.5 mr-0.2 md:mb-1.5 md:text-4xl md:mr-3">
             From
           </p>
