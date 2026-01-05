@@ -1,8 +1,8 @@
-import ActionButton from "./ActionButton";
+import ActionButton from "../ActionButton";
 // import * as motion from "motion/react-client";
 import { motion } from "framer-motion";
 
-const Hero = () => {
+const HeroHome = () => {
 
   return (
     <div className="relative flex justify-between items-center h-[30vh] md:flex md:w-full md:h-[50vh] xl:h-[75vh]">
@@ -60,4 +60,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroHome;
