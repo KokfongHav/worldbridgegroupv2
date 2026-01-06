@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name" : "Logistic",
+        "des" : "With a rapidly growing economy, logistics are a critical backbone for sustaining the engines of economic growth. As the Kingdom's largest logistics provider, the WorldBridge group of companies provides world-class services and access to global markets for companies of all sizes. Whether secure cash in transit, cold chain, bonded warehousing, air, or sea freight, we have solutions to meet your needs. With our global network of partners, we can deliver your precious cargo safely, on time, and on budget.",
+        "image" : "/Assets/Images/Categories/logistic.jpg"
+    },
+    {
+        "id": 2,
+        "name" : "Property",
+        "des" : "Des",
+        "image" : "/Assets/Images/Categories/thepeak.jpg"
+    },
+    {
+        "id": 3,
+        "name" : "Facility Management",
+        "des" : "Des",
+        "image" : "/Assets/Images/Categories/cleaning.jpg"
+    },
+    {
+        "id": 4,
+        "name" : "Community Residence",
+        "des" : "Des",
+        "image" : "/Assets/Images/Categories/thepalm.png"
+    },
+    {
+        "id": 5,
+        "name" : "Banking and Finance",
+        "des" : "Des",
+        "image" : "/Assets/Images/Categories/Bank.jpg"
+    },
+    {
+        "id": 6,
+        "name" : "Business Services",
+        "des" : "Des",
+        "image" : "/Assets/Images/Categories/MRT.jpg"
+    },
+    {
+        "id": 7,
+        "name" : "Food & Beverages",
+        "des" : "Des",
+        "image" : "/Assets/Images/Categories/foodandbeverage.jpg"
+    },
+    {
+        "id": 8,
+        "name" : "Trading",
+        "des" : "Des",
+        "image" : "/Assets/Images/Categories/trading.jpg"
+    },
+    {
+        "id": 9,
+        "name" : "Healthcare",
+        "des" : "Des",
+        "image" : "/Assets/Images/Categories/SGMC.jpg"
+    },
+    {
+        "id": 10,
+        "name" : "Media",
+        "des" : "Des",
+        "image" : "/Assets/Images/Categories/NRG.jpg"
+    }
+]
