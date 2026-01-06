@@ -1,7 +1,13 @@
+import AboutUsHero from "../Components/AboutUsPage/AboutUsHero"
 
 const Whoweare = () => {
   return (
-    <div className="h-full">Whoweare</div>
+    <div className="w-screen flex flex-col justify-center items-center">
+      
+      {/* Hero */}
+      <AboutUsHero />
+
+    </div>
   )
 }
 
