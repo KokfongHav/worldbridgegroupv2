@@ -1,6 +1,7 @@
 import AboutUsCM from "../Components/AboutUsPage/AboutUsCM"
 import AboutUsDetail from "../Components/AboutUsPage/AboutUsDetail"
 import AboutUsHero from "../Components/AboutUsPage/AboutUsHero"
+import Milestone from "../Components/AboutUsPage/Milestone"
 
 const Whoweare = () => {
   return (
@@ -14,6 +15,9 @@ const Whoweare = () => {
       
       {/* CM */}
       <AboutUsCM />
+
+      {/* Milestones */}
+      <Milestone />
 
     </div>
   )
