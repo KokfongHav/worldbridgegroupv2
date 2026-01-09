@@ -1,48 +1,40 @@
+import data from "../../Utility/aboutus.json"
+
 const AboutUsDetail = () => {
+  const about01 = data[0].des
+  const about02 = data[1].des
+  const about03 = data[2].des
+  const about04 = data[3].des
+  
   return (
-    <section className="relative flex flex-col w-full h-260 justify-center items-center overflow-hidden gap-8">
-      <div className="absolute -z-10 h-auto">
+    <section className="relative flex flex-col flex-wrap w-[90%] justify-center items-center gap-4 md:h-200 md:gap-8 md:p-12">
+      <div className="hidden md:absolute md:flex -z-10 h-200 md:overflow-hidden">
         <img
           className="object-contain"
           src="/Assets/Images/Elements/aboutus-bg.jpg"
           alt="Background"
         />
       </div>
-      <div className="font-semibold text-5xl flex flex-row items-start w-[70%]">
+      <div className="font-semibold text-3xl md:text-5xl flex flex-row items-start w-[80%] md:w-[85%] xl:w-[80%]">
         About us
       </div>
-      <div className="flex flex-row md:gap-12 text-center">
-        <p className="bg-[#F7F7F7] rounded-xl md:p-9 md:w-[33vw] md:text-md">
-          Established in 1992, WorldBridge Group has grown into one of
-          Cambodia’s most trusted and diversified business groups. Through
-          long-standing partnerships with global partners, we have brought
-          meaningful investment, innovation, and long-term value to the Kingdom.
+      <div className="flex flex-col md:flex-row gap-4 md:gap-8 text-center">
+        <p className="aboutusdetails">
+          {about01}
         </p>
-        <p className="bg-[#F7F7F7] rounded-xl md:p-9 md:w-[33vw] md:text-md">
-          Beyond business, we invest in strategic social initiatives such as
-          affordable housing, SME development, and green mobility to contribute
-          to Cambodia’s inclusive and sustainable national development. At
-          WorldBridge, our commitment goes beyond profit, we build
-          purpose-driven enterprises that shape the future of Cambodia.
+        <p className="aboutusdetails md:pl-12">
+         {about02}
         </p>
       </div>
-      <div className="absolute bg-[#E1E7EF] py-[0%] px-[3%] rounded-[50%] top-115">
-            <img className="w-[10vw]" src="/Assets/Images/Elements/WBG-3D-Logo.png" alt="3D Logo middle" />
+      <div className="hidden md:flex absolute bg-[#E1E7EF] py-[0%] px-[3.5%] rounded-[50%] top-[44%] xl:px-[3%]">
+            <img className="w-[10vw] xl:w-[8vw]" src="/Assets/Images/Elements/WBG-3D-Logo.png" alt="3D Logo middle" />
       </div>
-      <div className="flex flex-row md:gap-12 text-center">
-        <p className="bg-[#F7F7F7] rounded-xl md:p-10 md:pr-12 md:w-[33vw] md:text-md">
-          Our reputation is built on trust, transparency, and a consistent track
-          record of success across a broad range of sectors, including
-          Logistics, Property and Hospitality, Facility Management, Business
-          Services, Banking and Finance, Trading, Food and Beverages, Health and
-          Media.
+      <div className="flex flex-col md:flex-row gap-4 md:gap-8 text-center">
+        <p className="aboutusdetails">
+          {about03}
         </p>
-        <p className="bg-[#F7F7F7] rounded-xl md:p-10 md:pl-12  md:w-[33vw] md:text-md">
-          Driven by a deep commitment to operational excellence and social
-          responsibility, we continue to play a vital role in Cambodia’s
-          sustainable development and economic growth. Our contributions have
-          made a significant impact on Cambodia’s economy, with major
-          investments across key sectors.
+        <p className="aboutusdetails">
+          {about04}
         </p>
       </div>
     </section>

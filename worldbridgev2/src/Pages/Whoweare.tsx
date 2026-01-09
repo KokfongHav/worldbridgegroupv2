@@ -3,7 +3,7 @@ import AboutUsHero from "../Components/AboutUsPage/AboutUsHero"
 
 const Whoweare = () => {
   return (
-    <div className="w-screen flex flex-col justify-center items-center">
+    <div className="w-screen flex flex-col flex-wrap justify-center items-center">
       
       {/* Hero */}
       <AboutUsHero />

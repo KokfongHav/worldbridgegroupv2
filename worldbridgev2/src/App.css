@@ -21,6 +21,20 @@
     gap: 0.5rem;
   }
 
+  .aboutusdetails {
+    background-color: #F7F7F7;
+    border-radius: 12px;
+    padding: 36px;
+    width: 33vw;
+    font-size: 16px;
+  }
+
+  @media (min-width:1300px) {
+    .aboutusdetails {
+      padding: 46px;
+    }
+  }
+
   @media (max-width: 768px) {
     .aboutuselements {
       display: flex;
@@ -29,6 +43,13 @@
       font-weight: bold;
       font-size: 8px;
       gap: 0.3rem;
+    }
+
+    .aboutusdetails {
+      width: 80vw;
+      font-size: 12px;
+      padding: 24px;
+      box-shadow: 0 0 4px #d0d0d0;
     }
 
     .title {
