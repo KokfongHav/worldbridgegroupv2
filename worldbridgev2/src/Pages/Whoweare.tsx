@@ -5,7 +5,7 @@ import Milestone from "../Components/AboutUsPage/Milestone"
 
 const Whoweare = () => {
   return (
-    <div className="w-screen flex flex-col flex-wrap justify-center items-center">
+    <div className="w-full flex flex-col flex-wrap justify-center items-center">
       
       {/* Hero */}
       <AboutUsHero />

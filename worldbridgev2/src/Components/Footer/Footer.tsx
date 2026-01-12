@@ -2,7 +2,7 @@ import ActionButton from "../ActionButton";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col w-screen justify-center items-center py-4">
+    <div className="flex flex-col w-full justify-center items-center py-4">
       <div className="flex flex-col gap-4 items-center md:gap-6">
         <p className="md:text-2xl">Want to know more about us?</p>
         <span>

@@ -3,7 +3,7 @@ import { FloatingImages } from "./FloatingImages";
 
 const AboutUsHero = () => {
   return (
-      <section className="relative h-120 md:h-130 py-20 md:w-270 flex flex-col items-center justify-end">
+      <section className="relative h-120 md:h-130 py-20 md:w-270 flex flex-col items-center justify-end -z-10">
 
         {/* Floating images */}
         <FloatingImages />
