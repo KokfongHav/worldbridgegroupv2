@@ -95,13 +95,13 @@ const BusinessHome = () => {
           </div>
         </div>
         <ActionButton text="Learn More" />
-        <div className="flex flex-row flex-wrap p-4 gap-8 md:gap-14 justify-around">
+        <div className="flex flex-row flex-wrap p-4 gap-4 md:mt-[2%] md:gap-14 justify-around">
           {data?.map((e, i) => (
-            <div className="flex flex-col gap-4 items-center justify-between" key={i}>
-              <div className="w-[20vw] h-[10vh] md:w-[10vw] md:h-[15vh] flex flex-row">
-                <img className="object-contain" src={e.image} alt={e.name} />
+            <div className="flex flex-col items-center justify-between w-[47%] mt-[7%] md:-mt-[2%] md:w-[15%]" key={i}>
+              <div className="w-[60%] h-[90%] md:w-[80%] md:h-[75%] flex flex-row">
+                <img className="object-contain h-full w-full " src={e.image} alt={e.name} />
               </div>  
-              <p className="text-[12px] md:text-sm">{e.name}</p>
+              <p className="h-[10%] md:h-[25%] text-[14px] text-center md:text-sm w-full">{e.name}</p>
             </div>
           ))}
         </div>
