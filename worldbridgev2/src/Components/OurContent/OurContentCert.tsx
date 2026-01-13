@@ -1,20 +1,23 @@
 import { useState } from "react";
-import data from "../../Utility/Certificates.json";
+import contents from "../../Utility/Certificates.json";
 import { flyIn } from "../../Animations/flyin";
 import { motion } from "framer-motion";
 
 const OurContentCert = () => {
   const [open, setOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState<string | undefined>(undefined);
+  const [expanded, setExpanded] = useState(false);
 
   const openImage = (e:string) => {
     setSelectedImage(e)
     setOpen(true)
   }
-  console.log(selectedImage);
+
+  const data = expanded ? contents : contents.slice(0,3)
+
   return (
-    <section className="w-[90%] flex flex-col gap-12">
-      <div className="flex-flex-col gap-4">
+    <section className="w-[90%] flex flex-col gap-12 items-center">
+      <div className="flex-flex-col gap-4 w-full items-starts">
         <p className="font-semibold text-3xl md:text-4xl">Certificates</p>
       </div>
       <div className="flex flex-row flex-wrap gap-8 items-end">
@@ -49,6 +52,14 @@ const OurContentCert = () => {
           </motion.div>
         ))}
       </div>
+      {contents.length > 3 && (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="mt-4 text-white text-[12px] font-semibold bg-primary rounded-4xl w-[40%] px-2 py-1 md:w-[15%] md:py-1.5 md:px-2 md:text-[16px] cursor-pointer"
+        >
+          {expanded ? "Show less" : "Show more"}
+        </button>
+      )}
     </section>
   );
 };
