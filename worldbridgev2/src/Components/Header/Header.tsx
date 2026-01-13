@@ -1,23 +1,34 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router";
 import { AiOutlineMenu } from "react-icons/ai";
 // import { RxCross2 } from "react-icons/rx";
 import { FaRegCircleXmark } from "react-icons/fa6";
 
 const Header = () => {
-  const [navState, setNavState] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
-  const mobileMenuSelection = (selected:number) => {
-    setNavState(selected)
-    setMenuOpen(false)
-  }
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const mobileMenuSelection = ()=> {
+    setMenuOpen(false);
+  };
 
   return (
-    <>
+    <header className={`
+        sticky top-0 z-50 transition-all duration-300
+        ${scrolled ? "bg-white shadow-md" : "bg-transparent"}
+      `}>
       {/* //Medium screen up */}
       <div className="hidden md:flex md:w-full md:h-20 md:justify-around md: items-center cursor-pointer ">
-        <span onClick={() => setNavState(0)}>
+        <span>
           <Link to={"/"}>
             <img
               className="md:w-45"
@@ -26,32 +37,44 @@ const Header = () => {
           </Link>
         </span>
         <div className="flex md:w-3/5 md:justify-around md:items-center md:text-[16px]">
-          <span
-            onClick={() => setNavState(1)}
-            className={navState === 1 ? "font-semibold" : ""}
-          >
-            <NavLink to={"/whoweare"}>Who we are?</NavLink>
+          <span>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "font-semibold" : "font-normal"
+              }
+              to={"/whoweare"}
+            >
+              Who we are?
+            </NavLink>
           </span>
-          <span
-            onClick={() => setNavState(2)}
-            className={navState === 2 ? "font-semibold" : ""}
-          >
-            <NavLink to={"/ourbusiness"}>Our Business</NavLink>
+          <span>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "font-semibold" : "font-normal"
+              }
+              to={"/ourbusiness"}
+            >
+              Our Business
+            </NavLink>
           </span>
-          <span
-            onClick={() => setNavState(3)}
-            className={navState === 3 ? "font-semibold" : ""}
-          >
-            <NavLink to={"/ourcontent"}>Our Content</NavLink>
+          <span>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "font-semibold" : "font-normal"
+              }
+              to={"/ourcontent"}
+            >
+              Our Content
+            </NavLink>
           </span>
           <span className="bg-primary rounded-[50rem] text-white font-medium px-6 py-2">
-            Contact Us
+            Contact Now
           </span>
         </div>
       </div>
       {/* Mobile screen */}
       <div className="relative flex justify-between items-center md:hidden">
-        <span onClick={() => setNavState(0)}>
+        <span>
           <Link to={"/"}>
             <img
               className="w-45"
@@ -71,7 +94,10 @@ const Header = () => {
         {menuOpen ? (
           <div className="absolute z-10 top-[20%] left-[3%] flex flex-col w-[94%] h-155 rounded-2xl py-6 justify-around items-center bg-white shadow-xl/30">
             <div className="w-full">
-              <span onClick={() => mobileMenuSelection(0)} className="relative w-30">
+              <span
+                onClick={() => mobileMenuSelection()}
+                className="relative w-30"
+              >
                 <Link to={"/"}>
                   <img
                     className="w-45 m-4"
@@ -88,34 +114,43 @@ const Header = () => {
               </span>
             </div>
             <div
-              onClick={() => mobileMenuSelection(1)}
-              className={
-                navState === 1
-                  ? "font-semibold border-b w-[80%]"
-                  : "border-b w-[80%]"
-              }
+              onClick={() => mobileMenuSelection()}
+              className={"border-b w-[80%]"}
             >
-              <NavLink to={"/whoweare"}>Who we are?</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "font-semibold" : "font-normal"
+                }
+                to={"/whoweare"}
+              >
+                Who we are?
+              </NavLink>
             </div>
             <div
-              onClick={() => mobileMenuSelection(2)}
-              className={
-                navState === 2
-                  ? "font-semibold border-b w-[80%]"
-                  : "border-b w-[80%]"
-              }
+              onClick={() => mobileMenuSelection()}
+              className={"border-b w-[80%]"}
             >
-              <NavLink to={"/ourbusiness"}>Our Business</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "font-semibold" : "font-normal"
+                }
+                to={"/ourbusiness"}
+              >
+                Our Business
+              </NavLink>
             </div>
             <div
-              onClick={()=>mobileMenuSelection(3)}
-              className={
-                navState === 3
-                  ? "font-semibold border-b w-[80%]"
-                  : "border-b w-[80%]"
-              }
+              onClick={() => mobileMenuSelection()}
+              className={"border-b w-[80%]"}
             >
-              <NavLink to={"/ourcontent"}>Our Content</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "font-semibold" : "font-normal"
+                }
+                to={"/ourcontent"}
+              >
+                Our Content
+              </NavLink>
             </div>
             <div className="bg-primary rounded-[50rem] text-white font-medium px-6 py-2 ">
               Contact Us
@@ -125,7 +160,7 @@ const Header = () => {
           ""
         )}
       </div>
-    </>
+    </header>
   );
 };
 

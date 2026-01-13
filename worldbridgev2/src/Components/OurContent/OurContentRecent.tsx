@@ -8,7 +8,7 @@ const OurContentRecent = () => {
            <div className="font-bold text-[1.8rem] md:text-5xl">
              Recent News
            </div>
-           <hr className="my-2 w-[90%] md:my-8 md:w-[50vw] border-main border-t-3" />
+           <hr className="my-2 w-full md:my-8 md:w-[50vw] border-main border-t-3" />
    
            {/* Contents */}
            <div className="flex flex-col gap-4 md:gap-8 w-[90vw] md:w-full">

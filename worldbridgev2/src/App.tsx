@@ -5,12 +5,14 @@ import Home from './Pages/Home.tsx'
 import Whoweare from './Pages/Whoweare.tsx'
 import Ourbusiness from './Pages/Ourbusiness.tsx'
 import Ourcontent from './Pages/Ourcontent.tsx'
+import ScrollToTop from './Components/ScrollToTop.tsx'
 
 function App() {
 
   return (
     <div className="flex flex-col" >
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
             <Route element= {<Layout />}>
             <Route path='/' element={<Home/>} />
