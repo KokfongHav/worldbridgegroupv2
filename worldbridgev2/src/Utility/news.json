@@ -12,7 +12,7 @@
       "She said that by using Visa's global payments, the experience for Visa card users is becoming smoother, easier, and they are receiving leading benefits, both in Cambodia and around the world."
     ],
     "date": "July 04, 2025",
-    "thumbnail": "../assets/images/news/bridgebankvisa_01.png",
+    "thumbnail": "/Assets/Images/News/bridgebankvisa_01.png",
     "images": [
       "bridgebankvisa_01.png",
       "bridgebankvisa_02.jpg",
@@ -23,14 +23,14 @@
   },
   {
     "titleId": "wbg042",
-    "title": "Oknha Sea Rithy, Vice President of the Cambodian Oknha Association, and Lork Chomtev (WorldBridge Group) donated $110,000 on the occasion of the 162nd anniversary of World Red Cross and Red Crescent Day, May 8, 2025.",
+    "title": "Oknha Sear Rithy, Vice President of the Cambodian Oknha Association, and Lork Chomtev (WorldBridge Group) donated $110,000 on the occasion of the 162nd anniversary of World Red Cross and Red Crescent Day, May 8, 2025.",
     "des": [
       "Neak Oknha Sear Rithy, Vice President of the Cambodian Oknha Association, and Lork Chomtev (WorldBridge Group) donated US$110,000 to the Cambodian Red Cross on the occasion of the 162nd anniversary of World Red Cross and Red Crescent Day on May 8, 2025, and the 70th anniversary of the Cambodian Red Cross, under the theme 'Together, volunteer for a healthy and climate-resilient community.'",
       "Oknha Sear Rithy, Vice President of the Cambodian Oknha Association, and Lork Chomtev (WorldBridge Group) have always contributed funds to the Cambodian Red Cross every year for May 8th. In the past, they have also contributed funds to support various campaigns of the Royal Government, as well as to support many other charitable programs.",
       "The participation in financial and material support through the Cambodian Red Cross is truly valuable in promoting a cultural spirit of sharing, which is a link between philanthropists and beneficiaries."
     ],
     "date": "April 25, 2025",
-    "thumbnail": "../assets/images/news/red-cross-2025.png",
+    "thumbnail": "/Assets/Images/News/red-cross-2025.png",
     "images": [
       "red-cross-2025.png"
     ]
@@ -45,7 +45,7 @@
       "The Chamber of Commerce is a non-profit organization whose membership is voluntary and represents and protects the interests of the private sector in the fields of commerce, industry, handicrafts, services and agriculture, by acting to serve the national economy within its jurisdiction and throughout the country."
     ],
     "date": "April 25, 2025",
-    "thumbnail": "../assets/images/news/Neak_Oknha_position_01.jpg",
+    "thumbnail": "/Assets/Images/News/Neak_Oknha_position_01.jpg",
     "images": [
       "Neak_Oknha_position_01.jpg",
       "Neak_Oknha_position.jpg",
@@ -66,7 +66,7 @@
       "WorldBridge Group is a leading company in Cambodia with a diversified portfolio across transportation, real estate, financial services and more. Committed to driving economic growth and innovation, the company partners with global and regional stakeholders to deliver effective solutions across industries."
     ],
     "date": "January 25, 2025",
-    "thumbnail": "../assets/images/news/WBG-LipCo001.jpg",
+    "thumbnail": "/Assets/Images/News/WBG-LipCo001.jpg",
     "images": [
       "WBG-LipCo001.jpg",
       "WBG-LipCo002.jpg",
@@ -90,7 +90,7 @@
       "Neak Oknha Sear Rithy’s presence at WEF25 underscores Cambodia’s growing prominence on the global stage, reaffirming the nation’s potential as a key growth market within ASEAN. His participation reflects WorldBridge Group’s dedication to engaging in critical discussions that shape the future of industries and economies worldwide."
     ],
     "date": "January 25, 2025",
-    "thumbnail": "../assets/images/news/WBGWEF2025-02.jpg",
+    "thumbnail": "/Assets/Images/News/WBGWEF2025-02.jpg",
     "images": [
       "WBGWEF2025-01.jpg",
       "WBGWEF2025-02.jpg",
@@ -111,7 +111,7 @@
       "Both sides expressed their commitment to further engage through future business exchanges and cooperation projects with the aim of promoting bilateral trade and investment."
     ],
     "date": "January 24, 2025",
-    "thumbnail": "../assets/images/news/WBG-PH001.jpg",
+    "thumbnail": "/Assets/Images/News/WBG-PH001.jpg",
     "images": [
       "WBG-PH001.jpg",
       "WBG-PH002.jpg",
@@ -131,7 +131,7 @@
       "Along with being located in a high-potential area, the WorldBridge Sport Village project also offers special installment payment terms to customers, with interest-free installments for up to 36 months and high flexibility. In addition to condos, the project, which is developed on an area of ​​6.4 hectares, also includes 265 houses, commercial buildings, villas, townhouses, and row houses, of which approximately 30% have been delivered to customers so far."
     ],
     "date": "January 21, 2025",
-    "thumbnail": "../assets/images/news/WBG-WBSV001.jpg",
+    "thumbnail": "/Assets/Images/News/WBG-WBSV001.jpg",
     "images": [
       "WBG-WBSV001.jpg",
       "WBG-WBSV002.jpg",
@@ -150,7 +150,7 @@
       "Tandem Partners is a diversified investment group founded in 2015 that invests in France and Asia. Tandem Partners is actively involved in Cambodia through its advisory, Confluences, which specializes in market access and market access services for the Cambodian market and other Greater Mekong countries."
     ],
     "date": "December 21, 2024",
-    "thumbnail": "../assets/images/news/WBG-TDP-02.jpg",
+    "thumbnail": "/Assets/Images/News/WBG-TDP-02.jpg",
     "images": [
       "WBG-TDP-01.jpg",
       "WBG-TDP-02.jpg",
@@ -169,7 +169,7 @@
       "This luxurious hotel has 303 rooms, the largest ballroom in the city, a variety of dining options, a stylish bar, a swimming pool and a fitness center. By combining modern luxury with Khmer culture, the hotel also offers Asian hospitality to national and international guests."
     ],
     "date": "December 18, 2024",
-    "thumbnail": "../assets/images/news/WBG-SGL-01.jpg",
+    "thumbnail": "/Assets/Images/News/WBG-SGL-01.jpg",
     "images": [
       "WBG-SGL-01.jpg",
       "WBG-SGL-02.jpg",
@@ -195,7 +195,7 @@
       "Moreover, Little Caesars®, which has entered the Cambodian market, is the 29th country of Little Caesars® operations worldwide, which was led by Neak Oknha Sear Rithy, Chairman of Worldbridge Group."
     ],
     "date": "November 20, 2024",
-    "thumbnail": "../assets/images/news/wbg-littlecaesars01.png",
+    "thumbnail": "/Assets/Images/News/wbg-littlecaesars01.png",
     "images": [
       "wbg-littlecaesars01.png",
       "wbg-littlecaesars02.png",
@@ -220,7 +220,7 @@
       "The World Knowledge Forum is a leading international conference dedicated to transforming Korea into a knowledge-driven country. Bringing together a diverse group of thought leaders, experts and innovators, the forum has become one of the fastest growing knowledge sharing events worldwide since its inauguration in 2000."
     ],
     "date": "September 13, 2024",
-    "thumbnail": "../assets/images/news/wbggkf001.jpg",
+    "thumbnail": "/Assets/Images/News/wbggkf001.jpg",
     "images": [
       "wbggkf001.jpg",
       "wbggkf002.jpg",
@@ -240,7 +240,7 @@
       "Please note that this newly formed joint venture will aim to introduce the benefits of Web3 and blockchain technologies to improve financial and digital asset solutions for the people of Cambodia."
     ],
     "date": "August 29, 2024",
-    "thumbnail": "../assets/images/news/WBGBT001.jpg",
+    "thumbnail": "/Assets/Images/News/WBGBT001.jpg",
     "images": [
       "WBGBT001.jpg",
       "WBGBT002.jpg",
@@ -264,7 +264,7 @@
       "In particular, Lippo Group is a well-known company in Asia with a wide range of interests in the real estate sector. Healthcare, hospitality, retail, finance and other utility services. In the real estate sector of Indonesia, the Group has a clear record of developing and operating many residential, commercial and industrial projects, including large towns such as Lippo village, etc."
     ],
     "date": "August 21, 2024",
-    "thumbnail": "../assets/images/news/Indonesia-WBG.jpg",
+    "thumbnail": "/Assets/Images/News/Indonesia-WBG.jpg",
     "images": [
       "Indonesia-WBG-001.jpg"
     ]
@@ -279,7 +279,7 @@
       "With a strong emphasis on collaboration and knowledge exchange, Summer Davos 2024 is ready to prepare for the future of global economic growth and development. The conference will be accessible to a global audience through more than 50 live sessions, including discussions on China's economic prospects and international cooperation in a more competitive world."
     ],
     "date": "June 26, 2024",
-    "thumbnail": "../assets/images/news/SDWBG02.png",
+    "thumbnail": "/Assets/Images/News/SDWBG02.png",
     "images": [
       "SDWBG01.jpg",
       "SDWBG02.png",
@@ -298,7 +298,7 @@
       "Mr. Allen Dodgson Tan added, ‘This partnership with SCALA is a testament to PPLC's commitment to growth and development in the Cambodian logistics industry. We are confident that this cooperation will have a long-term positive impact on Cambodia's supply chain and logistics capacity.’"
     ],
     "date": "June 19, 2024",
-    "thumbnail": "../assets/images/news/CGWBG01.jpg",
+    "thumbnail": "/Assets/Images/News/CGWBG01.jpg",
     "images": [
       "CGWBG02.jpg",
       "CGWBG03.jpg",
@@ -329,7 +329,7 @@
       "Please note that WorldBridge Group is a leading company in Cambodia with a diverse portfolio of real estate, construction, logistics and hospitality. The company is committed to sustainable and inclusive development in Cambodia."
     ],
     "date": "June 04, 2024",
-    "thumbnail": "../assets/images/news/WDV032.jpg",
+    "thumbnail": "/Assets/Images/News/WDV032.jpg",
     "images": [
       "WDV001.jpg",
       "WDV002.jpg",
@@ -376,7 +376,7 @@
       "Funds raised from philanthropists, the National Association shall be use to continue provide humanitarian services, address challenges, strengthen community resilience and alleviate the suffering of the most vulnerable and vulnerable people in accordance with the fundamental principles of the International Red Cross and Red Crescent Movement."
     ],
     "date": "May 08, 2024",
-    "thumbnail": "../assets/images/news/WBG_240508-01_FB.jpg",
+    "thumbnail": "/Assets/Images/News/WBG_240508-01_FB.jpg",
     "images": [
       "WBG_240508-01_FB.jpg"
     ]
@@ -391,7 +391,7 @@
       "According to the report from the Cambodian Duke Association, under the donation of Neak Oknha and Oknha, the association received more than 2.4 million US dollars, and these funds were already given to Samdech Preah Sangkhareach Bour Kry on October 20, 2022."
     ],
     "date": "October 24, 2022",
-    "thumbnail": "../assets/images/news/Neak-Okhna-2.png",
+    "thumbnail": "/Assets/Images/News/Neak-Okhna-2.png",
     "images": [
       "Neak-oknha-sear-rithy-group-photo-768x576.jpeg"
     ]
@@ -407,7 +407,7 @@
       "Website: https://wbsportvillage.com"
     ],
     "date": "September 13, 2021",
-    "thumbnail": "../assets/images/news/sportvilage02.jpeg",
+    "thumbnail": "/Assets/Images/News/sportvilage02.jpeg",
     "images": [
       "sportvilage01.jpeg",
       "sportvilage02.jpeg",
@@ -434,7 +434,7 @@
       "Website: https://wbsportvillage.com"
     ],
     "date": "August 24, 2021",
-    "thumbnail": "../assets/images/news/worldbridgesportvillage12-e1629779287511.jpeg",
+    "thumbnail": "/Assets/Images/News/worldbridgesportvillage12-e1629779287511.jpeg",
     "images": [
       "worldbridgesportvillage12-e1629779287511.jpeg",
       "worldbridgesportvillage11-1.jpeg",
@@ -464,7 +464,7 @@
       "Website: https://wbsportvillage.com"
     ],
     "date": "July 9, 2021",
-    "thumbnail": "../assets/images/news/mou-wbsv-cimb-2021-8.jpg",
+    "thumbnail": "/Assets/Images/News/mou-wbsv-cimb-2021-8.jpg",
     "images": [
       "mou-wbsv-cimb-2021-1.jpg",
       "mou-wbsv-cimb-2021-2.jpg",
@@ -489,7 +489,7 @@
       "Neak Okhna Sear Rithy stated, ‘this will allow us to take Cash-in-Transit to the next level. We will be able to provide new services like cash processing and overnight storage.’ Gary Freedman, Sub-Regional Manager -Southeast Asia for Brink’s stated, ‘Cambodia is a good fit for our overall strategy of expanding Brink’s services throughout Southeast Asia and the greater Asia-Pacific region."
     ],
     "date": "July 9, 2021",
-    "thumbnail": "../assets/images/news/brinks-wbsl-rebranding-ceremony-2.jpg",
+    "thumbnail": "/Assets/Images/News/brinks-wbsl-rebranding-ceremony-2.jpg",
     "images": [
       "brinks-wbsl-rebranding-ceremony-1.jpg",
       "brinks-wbsl-rebranding-ceremony-2.jpg",
@@ -520,7 +520,7 @@
       "Sathapana Bank is one of the leading commercial banks in Cambodia, with total assets of over US$ 2.1 billion and more than 4,000 employees. We have an extensive branch network nationwide with more than 170 branches, 3 Sathapana Premier banking halls, more than 230 ATMs with cash recycling capability. We provide full banking services such as loans, deposits, iBanking, Mobile Banking, debit & credit cards, domestic and foreign remittances, Western Union, trade finance, and other services. We are also offering tax collection services, public services payment with the Ministry of Public Works and Transportation, and various cooperation with mobile payment providers such as WING, Pi Pay, True Money, Ly Hour Veluy, eMoney, Bakong to give further convenience to our customers. Our partnership with Credit Bureau (Cambodia) Co., Ltd enables our customers to conveniently perform financial health check through Sathapana Mobile."
     ],
     "date": "June 21, 2021",
-    "thumbnail": "../assets/images/news/wbsv-sathapana-bank-mou-signing-01.jpg",
+    "thumbnail": "/Assets/Images/News/wbsv-sathapana-bank-mou-signing-01.jpg",
     "images": [
       "wbsv-sathapana-bank-mou-signing-01.jpg",
       "wbsv-sathapana-bank-mou-signing-02.jpg",
@@ -535,7 +535,7 @@
       "The handover ceremony was presided over by His Excellency Dr Mam Bunheng, Minister of Health. It accompanied by Lok Chumteav Yok Sambath, Secretary of State of the Ministry of Health. Together with Neak Okhna Sear Rithy, Chairman of the Board of Directors of the WorldBridge Group and Lok Chumteav Eva NGUYEN BINH, Ambassador of France to Cambodia."
     ],
     "date": "June 21, 2021",
-    "thumbnail": "../assets/images/news/michelin-asia-and-worldbridge-trading-donated-masks.jpg",
+    "thumbnail": "/Assets/Images/News/michelin-asia-and-worldbridge-trading-donated-masks.jpg",
     "images": [
       "michelin-asia-and-worldbridge-trading-donated-masks-1.jpg",
       "michelin-asia-and-worldbridge-trading-donated-masks-2.jpg",
@@ -561,7 +561,7 @@
       "All employees are the main assets of the company. Therefore, no matter what the circumstances, all employees of the WorldBridge Group are our family."
     ],
     "date": "April 21, 2021",
-    "thumbnail": "../assets/images/news/wbg-distributed-food-beverage-some-employees-during-lockdown-9.jpg",
+    "thumbnail": "/Assets/Images/News/wbg-distributed-food-beverage-some-employees-during-lockdown-9.jpg",
     "images": [
       "wbg-distributed-food-beverage-some-employees-during-lockdown-10.jpg",
       "wbg-distributed-food-beverage-some-employees-during-lockdown-7.jpg",
@@ -589,7 +589,7 @@
       "Please contact: The Bridge SOHO Sales Office, The Bridge Soho Tower #38-25, National Assembly Street, Village 14, Tonle Bassac, Chamkarmorn, Phnom Penh, Cambodia, please contact the sales team at 085 611 147 / 087 611 147"
     ],
     "date": "March 21, 2021",
-    "thumbnail": "../assets/images/news/wbsv-sale-gallery-soft-launch-6.jpg",
+    "thumbnail": "/Assets/Images/News/wbsv-sale-gallery-soft-launch-6.jpg",
     "images": [
       "wbsv-sale-gallery-soft-launch-1.jpg",
       "wbsv-sale-gallery-soft-launch-2.jpg",
@@ -615,7 +615,7 @@
       "We all have a role in preventing the spread of COVID-19 in our community by participating in the 3 Dos & 3 Don’ts and strictly following the health and safety guidelines of the Ministry of Health."
     ],
     "date": "March 04, 2021",
-    "thumbnail": "../assets/images/news/neak-okhna-donation-purchase-nokor-tep-hospital.jpg",
+    "thumbnail": "/Assets/Images/News/neak-okhna-donation-purchase-nokor-tep-hospital.jpg",
     "images": []
   },
   {
@@ -625,7 +625,7 @@
       "WorldBride Group family has organized a Lunar New Year celebration for its employees by distributing mandarin oranges as a traditional symbol of good fortune to each department group of companies with a smile and a pleasant. At the same time, WorldBridge Group family also prepared beautiful roses and chocolates for all the female staff for the upcoming Valentine’s Day."
     ],
     "date": "March 04, 2021",
-    "thumbnail": "../assets/images/news/MoU-between-UYFC-WBG-5.jpg",
+    "thumbnail": "/Assets/Images/News/MoU-between-UYFC-WBG-5.jpg",
     "images": [
       "MoU-between-UYFC-WBG-1.jpg",
       "MoU-between-UYFC-WBG-2.jpg",
@@ -643,7 +643,7 @@
       "WorldBride Group family has organized a Lunar New Year celebration for its employees by distributing mandarin oranges as a traditional symbol of good fortune to each department group of companies with a smile and a pleasant. At the same time, WorldBridge Group family also prepared beautiful roses and chocolates for all the female staff for the upcoming Valentine’s Day."
     ],
     "date": "December 25, 2020",
-    "thumbnail": "../assets/images/news/wbg-lunar-new-year-2021-11.jpg",
+    "thumbnail": "/Assets/Images/News/wbg-lunar-new-year-2021-11.jpg",
     "images": [
       "wbg-lunar-new-year-2021-1.jpg",
       "wbg-lunar-new-year-2021-2.jpg",
@@ -693,7 +693,7 @@
       "Merry Christmas everyone!"
     ],
     "date": "December 25, 2020",
-    "thumbnail": "../assets/images/news/worldbridge-group-christmas-celebration-2020-1.jpg",
+    "thumbnail": "/Assets/Images/News/worldbridge-group-christmas-celebration-2020-1.jpg",
     "images": [
       "worldbridge-group-christmas-2020-1.jpg",
       "worldbridge-group-christmas-2020-2.jpg",
@@ -746,7 +746,7 @@
       "Telephone:+855 23 723 770"
     ],
     "date": "November 27, 2020",
-    "thumbnail": "../assets/images/news/worldbridge-i4-0-sme-cluster-construction-site-officially-started-1.jpg",
+    "thumbnail": "/Assets/Images/News/worldbridge-i4-0-sme-cluster-construction-site-officially-started-1.jpg",
     "images": [
       "worldbridge-i4-0-sme-cluster-construction-site-officially-started-1.jpg",
       "worldbridge-i4-0-sme-cluster-construction-site-officially-started-2.jpg",
@@ -784,7 +784,7 @@
       "Location: TYREPLUS CHAK ANGRE Address: # 694, National Road 2, Sangkat Chak Angre Krom, Khan Meanchey, Phnom Penh Cambodia Phone Number: 023 866 645 Hours: 9:00 AM – 7:00 PM"
     ],
     "date": "November 05, 2020",
-    "thumbnail": "../assets/images/news/TYPEPLUS-grand-opening.jpg",
+    "thumbnail": "/Assets/Images/News/TYPEPLUS-grand-opening.jpg",
     "images": [
       "typeplus-grand-opening-1.jpg",
       "typeplus-grand-opening-2.jpg",
@@ -808,7 +808,7 @@
       "On the afternoon of October 01, 2020, the WorldBridge Group family come together to have a delicious moon cake in a happy atmosphere of solidarity that presided over by Mr. Sear Daniel, Executive Director of WorldBridge Group."
     ],
     "date": "October 01, 2020",
-    "thumbnail": "../assets/images/news/wbg-moon-cake-event-2020-1.jpg",
+    "thumbnail": "/Assets/Images/News/wbg-moon-cake-event-2020-1.jpg",
     "images": [
       "wbg-moon-cake-event-2020-1.jpg",
       "wbg-moon-cake-event-2020-2.jpg",
@@ -838,7 +838,7 @@
       "Besides providing healthcare services, SGMC strongly believes that it is also crucial to heighten health awareness among the companies and the people of Cambodia. Prevention and healthy lifestyle is the first and basic step to good health."
     ],
     "date": "September 29, 2020",
-    "thumbnail": "../assets/images/news/mou-between-singapore-medical-center-lyhour-group.jpg",
+    "thumbnail": "/Assets/Images/News/mou-between-singapore-medical-center-lyhour-group.jpg",
     "images": [
       "MoU_SGMC_LyHour-1.jpg",
       "MoU_SGMC_LyHour-2.jpg",
@@ -869,7 +869,7 @@
       "Oknha Sear Rithy, Chairman of the WorldBridge Group, noted there are natural social and economic synergies between the affordable housing and SME Cluster Projects which will bring a higher value proposition to residents, SME manufacturers and investors in the area. That is, the facilities and amenities provided by both projects will serve and add value to one another while at the same time maximizing land use and enhance the overall architectural outlook of the whole areas. For instance, the SME Cluster will KINGDOM OF CAMBODIA NATION RELIGION KING 8 not only create employment and business opportunities for people living on our housing estate next door, but it also acts as a jobs training and skill development center that can benefit the whole community. Similarly, the residential and commercial area as well as the landscape parks and other public amenities of the housing estate will serve its own residents as well as workers and staff within SME cluster."
     ],
     "date": "September 09, 2020",
-    "thumbnail": "../assets/images/news/WBID-sme-cluster-event-09-09-2020-11.jpg",
+    "thumbnail": "/Assets/Images/News/WBID-sme-cluster-event-09-09-2020-11.jpg",
     "images": [
       "WBID-sme-cluster-event-09-09-2020-1.jpg",
       "WBID-sme-cluster-event-09-09-2020-2.jpg",
@@ -912,7 +912,7 @@
       "Source: Phnom Penh Post"
     ],
     "date": "February 19, 2020",
-    "thumbnail": "../assets/images/news/worldbridge_homes_affordable_housing_project_in_kandal.jpg",
+    "thumbnail": "/Assets/Images/News/worldbridge_homes_affordable_housing_project_in_kandal.jpg",
     "images": []
   },
   {
@@ -937,7 +937,7 @@
       "Source: Khmer Times"
     ],
     "date": "February 19, 2020",
-    "thumbnail": "../assets/images/news/affordable-housing-to-be-completed-within-the-year.jpg",
+    "thumbnail": "/Assets/Images/News/affordable-housing-to-be-completed-within-the-year.jpg",
     "images": []
   },
   {
@@ -960,7 +960,7 @@
       "Source: Phnom Penh Post"
     ],
     "date": "February 18, 2020",
-    "thumbnail": "../assets/images/news/award_winning_tech_start-up_muuve_completes_partnership_with_investment_company_ooctane._supplied.jpg",
+    "thumbnail": "/Assets/Images/News/award_winning_tech_start-up_muuve_completes_partnership_with_investment_company_ooctane._supplied.jpg",
     "images": []
   },
   {
@@ -981,7 +981,7 @@
       "Source: Khmer Times"
     ],
     "date": "April 23, 2019",
-    "thumbnail": "../assets/images/news/chairman-of-the-WorldBridge-Group.jpg",
+    "thumbnail": "/Assets/Images/News/chairman-of-the-WorldBridge-Group.jpg",
     "images": []
   },
   {
@@ -1016,7 +1016,7 @@
       "Source: Forbes"
     ],
     "date": "October 03, 2018",
-    "thumbnail": "../assets/images/news/rithy-sears-one-entrepreneurs-journey-from-refugee-to-business-mogul.jpg",
+    "thumbnail": "/Assets/Images/News/rithy-sears-one-entrepreneurs-journey-from-refugee-to-business-mogul.jpg",
     "images": []
   },
   {
@@ -1036,7 +1036,7 @@
       "Source: Phnom Penh Post"
     ],
     "date": "August 20, 2018",
-    "thumbnail": "../assets/images/news/a-groundbreaking-ceremony-takes-place-for-a-government-endorsed-affordable-housing-project-in-kandal-province-last-year.-sreng-meng-srun.jpg",
+    "thumbnail": "/Assets/Images/News/a-groundbreaking-ceremony-takes-place-for-a-government-endorsed-affordable-housing-project-in-kandal-province-last-year.-sreng-meng-srun.jpg",
     "images": []
   },
   {
@@ -1057,7 +1057,7 @@
       "Source: Khmer Times"
     ],
     "date": "June 27, 2018",
-    "thumbnail": "../assets/images/news/worldbridge-open-first-SME-industrial-park.jpg",
+    "thumbnail": "/Assets/Images/News/worldbridge-open-first-SME-industrial-park.jpg",
     "images": []
   },
   {
@@ -1081,7 +1081,7 @@
       "Source: Phnom Penh Post"
     ],
     "date": "July 13, 2017",
-    "thumbnail": "../assets/images/news/oknha-sear-rithy.jpg",
+    "thumbnail": "/Assets/Images/News/oknha-sear-rithy.jpg",
     "images": []
   }
 ]
