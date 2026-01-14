@@ -3,10 +3,12 @@ import contents from "../../Utility/news.json";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { flyIn } from "../../Animations/flyin";
+import { useNavigate } from "react-router";
 
 const OurContentRecent = () => {
   const [expanded, setExpanded] = useState(false);
   const data = expanded ? contents : contents.slice(0, 3);
+  const navigate = useNavigate();
 
   return (
     <section className="w-[95%] flex flex-col justify-center items-center p-4 md:p-8">
@@ -43,7 +45,10 @@ const OurContentRecent = () => {
                   />
                   <p className="text-[#59708C] text-sm">{e.date}</p>
                 </div>
-                <p className="font-semibold text-sm md:text-2xl line-clamp-1">
+                <p
+                  className="font-semibold text-sm md:text-2xl line-clamp-1 hover:underline cursor-pointer"
+                  onClick={() => navigate(`../ourcontent/${e.titleId}`)}
+                >
                   {e.title}
                 </p>
                 <div className="line-clamp-2 md:line-clamp-3 text-xs md:text-[10px]">
@@ -51,7 +56,7 @@ const OurContentRecent = () => {
                 </div>
               </div>
               <div className="hidden md:flex md:w-0.5/6 md:align-middle md:py-[6vh]">
-                <div className="bg-primary w-[10vw] md:w-[5vw] py-2 rounded-2xl flex justify-center items-center  cursor-pointer">
+                <div className="bg-primary w-[10vw] md:w-[5vw] py-2 rounded-2xl flex justify-center items-center  cursor-pointer" onClick={() => navigate(`../ourcontent/${e.titleId}`)}>
                   <FaArrowRightLong fill="white" />
                 </div>
               </div>
