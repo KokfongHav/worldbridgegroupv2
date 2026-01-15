@@ -8,55 +8,55 @@
     {
         "id": 2,
         "name" : "Property",
-        "des" : "Des",
+        "des" : "We are a dynamic property development and investment group focused on unlocking value in Cambodia's real estate market. We leverage deep data analytics and strategic foresight to identify high-yield opportunities for investors and businesses. Our mission is to build lasting wealth through smart acquisition, innovative development, and rigorous asset management.",
         "image" : "/Assets/Images/Categories/thepeak.jpg"
     },
     {
         "id": 3,
         "name" : "Facility Management",
-        "des" : "Des",
+        "des" : "We provide end-to-end Facility Management solutions designed to protect value and enhance livability. Our core competencies include: Secure Advisory Services: Specialized security consulting, manpower management, and threat assessment to ensure a safe community. EnviroCam: Delivers top-tier cleaning services, waste management, and environmental care to ensure your property remains spotless and hygienic.",
         "image" : "/Assets/Images/Categories/cleaning.jpg"
     },
     {
         "id": 4,
         "name" : "Community Residence",
-        "des" : "Des",
+        "des" : "At Community Residence by WorldBridge Group, we don't just build houses; we curate environments where communities thrive. From the affordable comfort of WorldBridge Homes to the sophisticated elegance of The Palm, we design spaces that turn houses into homes. We are also redefining modern living with WorldBridge Sport Village, Cambodia’s first sports-centric township designed for health, wellness, and vitality. No matter your stage in life, WorldBridge Community Residence offers a place where you truly belong.",
         "image" : "/Assets/Images/Categories/thepalm.png"
     },
     {
         "id": 5,
         "name" : "Banking and Finance",
-        "des" : "Des",
+        "des" : "Our Banking & Finance division is built on a commitment to financial inclusion and economic empowerment. We provide a complete ecosystem of financial solutions tailored to every stage of growth. Leading this sector is Bridge Bank, a full-service commercial bank offering premier personal and business banking, digital solutions, and strategic loans to drive long-term prosperity. Complementing this is Cash U Up, Cambodia’s pioneering licensed pawnshop, which provides immediate, accessible liquidity for individuals and small businesses. Together, they ensure that financial support is available whenever and wherever it is needed.",
         "image" : "/Assets/Images/Categories/Bank.jpg"
     },
     {
         "id": 6,
         "name" : "Business Services",
-        "des" : "Des",
+        "des" : "We offer an end-to-end solution for operational excellence. Through WorldBridge Industrial Developments, we provide innovative manufacturing hubs and logistics facilities designed for the next generation of industry. To ensure these hubs run efficiently, MR Job Training Center supplies a stream of highly skilled, professionally trained talent. Finally, WorldBridge Outsource Solution delivers flexible BPO and operational support to maximize productivity. From the ground up to the day-to-day, we are your partner in business efficiency.",
         "image" : "/Assets/Images/Categories/MRT.jpg"
     },
     {
         "id": 7,
         "name" : "Food & Beverages",
-        "des" : "Des",
+        "des" : "We are dedicated to enriching Cambodia’s culinary landscape through quality, variety, and innovation. Our F&B division ensures that the best flavors reach your plate. With AusKhmer, we supply the country’s top kitchens with premium global ingredients. We complement this with our own WorldBridge Food Industries to drive local production quality. For the ultimate dining experience, we invite guests to enjoy the sophisticated Khmer flavors of Sombok or the festive, meat-lover’s paradise at Samba Brazilian Steakhouse.",
         "image" : "/Assets/Images/Categories/foodandbeverage.jpg"
     },
     {
         "id": 8,
         "name" : "Trading",
-        "des" : "Des",
+        "des" : "We are dedicated to keeping Cambodia moving safely. Through WorldBridge Trading, we source and distribute the world’s best products to local businesses and drivers. We take this commitment to quality a step further with TyrePlus Cambodia, our network of professional automotive service centers. Whether you need premium tires, expert vehicle checks, or routine maintenance, our Trading division ensures you have access to genuine products and world-class technical expertise.",
         "image" : "/Assets/Images/Categories/trading.jpg"
     },
     {
         "id": 9,
         "name" : "Healthcare",
-        "des" : "Des",
+        "des" : "Our Health division is committed to raising the benchmark of medical care in the Kingdom. The cornerstone of this commitment is the Singapore Medical Center Cambodia (SGMC). Bringing the world-renowned standards of Singaporean healthcare to Phnom Penh, SGMC utilizes state-of-the-art technology and international best practices. We focus on delivering accurate diagnostics, premium primary care, and holistic wellness solutions, ensuring that high-quality medical expertise is accessible without leaving the country.",
         "image" : "/Assets/Images/Categories/SGMC.jpg"
     },
     {
         "id": 10,
         "name" : "Media",
-        "des" : "Des",
+        "des" : "Our Media portfolio encompasses creative services and broadcasting: WorldBridge Media: An integrated media agency providing digital solutions, event management, and strategic communications.NRG: The home of NRG 89FM, a leading radio station dedicated to music, entertainment, and connecting with the modern Cambodian lifestyle",
         "image" : "/Assets/Images/Categories/NRG.jpg"
     }
 ]
