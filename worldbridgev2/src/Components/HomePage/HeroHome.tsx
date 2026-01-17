@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const HeroHome = () => {
 
   return (
-    <div className="relative flex justify-between items-center h-[30vh] md:flex md:w-full md:h-[50vh] xl:h-[75vh]">
+    <div className="relative flex justify-between items-center h-[28vh] md:flex md:w-full md:h-120 xl:h-150">
       <div className="absolute flex w-full h-[90%] bg-[url(/Assets/Images/Elements/hero-bg.png)] bg-center bg-cover opacity-5 z-0"></div>
       <div>
         <motion.img

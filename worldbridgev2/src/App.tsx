@@ -7,6 +7,7 @@ import Ourbusiness from "./Pages/Ourbusiness.tsx";
 import Ourcontent from "./Pages/Ourcontent.tsx";
 import ScrollToTop from "./Components/ScrollToTop.tsx";
 import OurContentNewsDetial from "./Components/OurContent/OurContentNewsDetial.tsx";
+import CompanyCard from "./Components/BusinessPage/CompanyCard.tsx";
 
 function App() {
   return (
@@ -17,7 +18,10 @@ function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
             <Route path="/whoweare" element={<Whoweare />} />
-            <Route path="/ourbusiness" element={<Ourbusiness />} />
+            <Route path="/ourbusiness">
+              <Route index element={<Ourbusiness/>}></Route>
+              <Route path=":category" element={<CompanyCard/>}></Route>
+            </Route>
             <Route path="/ourcontent" element={<Ourcontent />} />
             <Route path="/ourcontent">
               <Route index element={<Ourcontent />}></Route>

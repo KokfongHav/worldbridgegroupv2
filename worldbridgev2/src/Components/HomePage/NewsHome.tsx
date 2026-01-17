@@ -1,7 +1,11 @@
 import data from "../../Utility/news.json";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { useNavigate } from "react-router";
+import { motion } from "framer-motion";
+import { flyIn } from "../../Animations/flyin";
 
 const NewsHome = () => {
+  const navigate = useNavigate();
   return (
     <section className="w-screen flex justify-center p-4 md:p-8">
       <div className="md:w-[90vw]">
@@ -13,11 +17,19 @@ const NewsHome = () => {
         {/* Contents */}
         <div className="flex flex-col gap-4 md:gap-8 w-[90vw] md:w-[90vw]">
           {data?.slice(0, 3).map((e, i) => (
-            <div className="flex flex-row flex-wrap gap-6 border-b-2 py-2 md:gap-6 md:py-2" key={i}>
+            <motion.div
+              className="flex flex-row flex-wrap gap-6 border-b border-[#59708C] py-2 md:gap-6 md:py-2"
+              key={i}
+              variants={flyIn("down")}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+            >
               <div className="w-1.5/6 flex flex-col justify-center md:justify-start">
-                <div className="w-[35vw] md:w-[17vw]">
-                  <img className="rounded-sm md:rounded-xl"
-                    src="/Assets/Images/News/bridgebankvisa_01.png"
+                <div className="w-40 h-25 overflow-hidden md:w-45 md:h-30 xl:w-60 object-contain">
+                  <img
+                    className="w-full h-full object-contain rounded-sm md:rounded-xl"
+                    src={e.thumbnail}
                     alt="thumbnail"
                   />
                 </div>
@@ -31,17 +43,25 @@ const NewsHome = () => {
                   />
                   <p className="text-[#59708C] text-sm">{e.date}</p>
                 </div>
-                <p className="font-semibold text-sm md:text-2xl line-clamp-1">
+                <p
+                  className="font-semibold text-sm md:text-2xl line-clamp-1 hover:underline cursor-pointer"
+                  onClick={() => navigate(`../ourcontent/${e.titleId}`)}
+                >
                   {e.title}
                 </p>
-                <div className="line-clamp-2 md:line-clamp-3 text-xs md:text-[10px]">{e.des}</div>
+                <div className="line-clamp-2 md:line-clamp-3 text-xs md:text-[10px]">
+                  {e.des}
+                </div>
               </div>
               <div className="hidden md:flex md:w-0.5/6 md:align-middle md:py-[6vh]">
-                <div className="bg-primary w-[10vw] md:w-[5vw] py-2 rounded-2xl flex justify-center items-center  cursor-pointer">
+                <div
+                  className="bg-primary w-[10vw] md:w-[5vw] py-2 rounded-2xl flex justify-center items-center  cursor-pointer"
+                  onClick={() => navigate(`../ourcontent/${e.titleId}`)}
+                >
                   <FaArrowRightLong fill="white" />
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
